@@ -1,0 +1,21 @@
+// html {
+//   font-size: 62.5%; // 10px / 16px > 62.5% =  1 rem = 10px :
+// }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  background: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}

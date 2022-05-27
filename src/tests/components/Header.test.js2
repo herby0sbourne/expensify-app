@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactShallowRenderer from 'react-test-renderer/shallow';
+// import ShallowRenderer from 'react-test-renderer/shallow'; // ES6
+import Header from '../../components/Header';
+
+test('should render Header correctly', () => {
+  const renderer = new ReactShallowRenderer();
+  renderer.render(<Header />);
+  const result = renderer.getRenderOutput();
+  expect(result).toMatchSnapshot();
+  console.log(result);
+});
