@@ -5,3 +5,4 @@ public/dist
 # styles.css
 # styles.css.map
 *.txt
+*.env.*
