@@ -6,3 +6,4 @@ public/dist
 # styles.css.map
 *.txt
 *.env.*
+.vscode/
