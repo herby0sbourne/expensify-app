@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "server.js",
   "engines": {
-    "node": "16.x"
+    "node": "x.x"
   },
   "license": "MIT",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node ./server/server.js",
     "serve": "live-server public/",
     "server2": "nodemon server/server.js",
     "dev-server": "webpack-dev-server --hot --inline",
