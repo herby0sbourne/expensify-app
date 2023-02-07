@@ -7,3 +7,5 @@ public/dist
 *.txt
 *.env.*
 .vscode/
+wordboard/
+.idea/
